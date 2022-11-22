@@ -608,7 +608,7 @@ img {
 /* Intro styles start */
 
 .intro {
-    min-height: 150vh;
+    min-height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
@@ -870,3 +870,46 @@ img {
 }
 
 /* Places styles end */
+
+/* Tours styles start */
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours-tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour-title {
+    margin-bottom: 85px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.tour-desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour-more {
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(../svg/arrow-right-ico.svg) no-repeat right center;
+}
+
+.tour-more:hover,
+.tour-more:active {
+    opacity: .65;
+}
+
+
+/* Tours styles end */
